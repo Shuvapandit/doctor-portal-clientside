@@ -1,0 +1,8 @@
+body{
+    background-image: url("../../../assets/images/bg.png"); /* The image used */
+    background-color: rgba(255, 255, 255, 0.638); /* Used if the image is unavailable */
+    height: 838px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
