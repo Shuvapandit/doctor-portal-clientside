@@ -11,6 +11,8 @@ import Navbar from './pages/Shared/Navbar/Navbar';
 import NotFound from './pages/NotFound/NotFound';
 import SignUp from './pages/Login/SignUp';
 import RequireAuth from './pages/Login/RequireAuth';
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -35,6 +37,7 @@ function App() {
         <Route path="signup" element={<SignUp/>} />
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+      <ToastContainer />
     </div>
   );
 }
